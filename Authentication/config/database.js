@@ -1,7 +1,6 @@
-var mongoose = require("mongoose");
-
+// config/database.js
 module.exports = {
-	connect: function() {
-		mongoose.connect("mongodb://localhost:27017/NodeAuth");
-	}
+
+    'url' : 'mongodb://localhost/passport' // looks like mongodb://<user>:<pass>@mongo.onmodulus.net:27017/Mikha4ot
+
 };
