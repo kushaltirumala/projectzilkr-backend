@@ -1,30 +1,33 @@
 {
-  "name": "NodeAuth",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "description": "NodeAuth",
-  "author": {
-    "name": "Jeremy",
-    "email": ""
-  },
-  "dependencies": {
-    "bcrypt-nodejs": "",
-    "body-parser": "~1.8.1",
-    "cookie-parser": "~1.3.3",
-    "debug": "~2.0.0",
-    "ejs": "^2.3.1",
-    "ejs-locals": "",
-    "express": "~4.9.0",
-    "express-session" : "",
-    "mongoose": "^4.0.2",
-    "morgan": "~1.3.0",
-    "passport": "^0.2.2",
-    "passport-local": "",
-    "passport-facebook":"",
-    "passport-oauth2":"",
-    "serve-favicon": "~2.1.3"
-  }
+	"name": "node-login",
+	"version": "1.4.0",
+	"description": "A template for quickly building login systems on top of Node.js & MongoDb",
+	"author": {
+		"name": "Stephen Braitsch",
+		"email": "stephen@braitsch.io"
+	},
+	"website":{
+		"url": "node-login.braitsch.io"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/braitsch/node-login.git"
+	},
+	"private": true,
+	"dependencies": {
+		"express": "4.12.4",
+		"stylus": "0.51.1",
+		"jade": "1.11.0",
+		"mongodb": "2.0.33",
+		"moment" : "2.10.3",
+		"emailjs": "0.3.16",
+		"body-parser": "1.13.0",
+		"connect-mongo": "0.8.1",
+		"express-session": "1.11.3",
+		"cookie-parser" : "1.3.5",
+		"errorhandler": "1.4.0"
+	},
+	"engines": {
+		"node": "0.12.4"
+	}
 }
